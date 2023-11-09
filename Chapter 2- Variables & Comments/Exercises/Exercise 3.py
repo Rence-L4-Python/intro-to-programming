@@ -6,6 +6,7 @@
 ## Then print the name using each of the three stripping functions, lstrip(), rstrip(), and strip().
 
 
+##### Attempt
 namevar="\tArthur Morgan\n"
 
 # print function
@@ -23,3 +24,5 @@ print(namevar.rstrip())
 # .strip function
 print("\n.strip function:")
 print(namevar.strip())
+
+exit()

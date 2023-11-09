@@ -1,6 +1,8 @@
 # Print Date and Time
 ## Write a Python Program to display the current date and time.
 
+
+##### Attempt
 # datetime function
 print("[datetime function]")
 import datetime
@@ -16,3 +18,5 @@ now = datetime.now()
 ct = now.strftime("%H:%M:%S")
 td = now.strftime("%m/%d/%y")
 print("Date:",td,"\n","Current Time:",ct)
+
+exit()

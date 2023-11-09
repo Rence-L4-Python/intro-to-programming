@@ -3,6 +3,8 @@
 ## Use a variable to represent your favorite number. Then,using that variable, create a message that reveals your favorite number. 
 ## Print that message.
 
+
+##### Attempt
 ### Simple Printing
 print("Simple Printing:")
 FavNum=7
@@ -13,3 +15,5 @@ print(Message, FavNum)
 print("\nUsing 'f-string:'")
 Message = f"My favorite number is {FavNum}."
 print(Message)
+
+exit()

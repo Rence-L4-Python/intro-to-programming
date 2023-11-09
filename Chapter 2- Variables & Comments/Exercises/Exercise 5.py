@@ -5,6 +5,9 @@
 ## You will need to use the arithmetic operators to complete this exercise.
 
 
+##### Attempt
+print("(Simple Calculator Tool)\n")
+
 USB=6
 MaxAllowance=50
 
@@ -12,5 +15,7 @@ TotalSticks=(MaxAllowance//USB)
 CashPaid=(TotalSticks*USB)
 Result=(MaxAllowance-CashPaid)
 
-## printing with f-string to avoid spacing between '£' and the cash remainder
-print("You can buy:", TotalSticks, "USB Sticks" "\n", f"Your remaining cash is: £{Result}")
+## printing with f-string
+print(f"You can buy: {TotalSticks} USB Sticks." "\n", f"Your remaining cash is: £{Result}\n")
+
+exit()

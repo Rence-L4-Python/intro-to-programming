@@ -9,7 +9,29 @@
 ## •If the person is age 65 or older, print a message that the person is an elder.
 
 
+##### Attempt
+### Variable-only
+print("[Variable only]")
+age=18
+
+if age<2:
+    print("You are a baby.")
+elif age<4:
+    print("You are a toddler.")
+elif age<13:
+    print("You are a kid.")
+elif age<20:
+    print("You are a teenager.")
+elif age<65:
+    print("You are an adult.")
+else:
+    print("You are an elder.")
+
+print("\n\n")
+
+
 ### Stages of Life, Tool using input function
+print("[Personal Activity]: Tool")
 print("This tool will put you in a group according to your age.")
 age=float(input("Enter your age:"))
 
@@ -25,3 +47,5 @@ elif age<65:
     print("You are an adult.")
 else:
     print("You are an elder.")
+
+exit()

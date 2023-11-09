@@ -11,3 +11,50 @@
 ## •	 Use reverse() to change the order of your list again. Print the list to show it’s back to its original order.
 ## •	 Use sort() to change your list so it’s stored in alphabetical order. Print the list to show that its order has been changed.
 ## •	 Use sort() to change your list so it’s stored in reverse alphabetical order. Print the list to show that its order has changed.
+
+
+##### Attempt
+print('\t\n[Unchanged orders]')
+sightseeing=['Norway', 'Poland', 'Canada', 'New Zealand', 'Switzerland']
+
+print("\nOriginal order:")
+print(sightseeing)
+
+print("\nAlphabetical order:")
+print(sorted(sightseeing))
+
+print("\nOriginal order:")
+print(sightseeing)
+
+print("\nReversed alphabetical order:")
+print(sorted(sightseeing, reverse=True))
+
+print("\nOriginal order:")
+print(sightseeing)
+
+print('\n\t[Changed orders]')
+
+print("\nReversed order:")
+sightseeing.reverse()
+print(sightseeing)
+
+print("\nOriginal order:")
+sightseeing.reverse()
+print(sightseeing)
+
+print("\nAlphabetical order:")
+sightseeing.sort()
+print(sightseeing)
+
+print("\nReversed alphabetical order:")
+sightseeing.sort(reverse=True)
+print(sightseeing)
+
+print('\n')
+
+exit()
+
+
+
+
+

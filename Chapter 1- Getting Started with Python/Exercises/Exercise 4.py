@@ -1,5 +1,7 @@
 # Strings Concatenation
 
+
+##### Attempt
 # .join function
 print(".join function:")
 concatenation = ['Hello', 'Python', 'Interpreter']
@@ -24,3 +26,5 @@ stringa='Hello'
 stringb='Python'
 stringc='Interpreter'
 print(stringa,stringb,stringc)
+
+exit()
