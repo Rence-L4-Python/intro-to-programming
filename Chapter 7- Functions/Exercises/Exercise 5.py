@@ -7,3 +7,14 @@
 
 
 ##### Attempt
+
+print('Describing cities:\n')
+
+def describe_city(city, country='Norway'):
+    text = city + " is in " + country + "."
+    print(text)
+
+describe_city('Oslo')
+describe_city('Warsaw', 'Poland') 
+describe_city('Trondheim')   
+

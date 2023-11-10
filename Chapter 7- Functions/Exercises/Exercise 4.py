@@ -5,3 +5,13 @@
 
 
 ##### Attempt
+
+print("Shirt printer: default large size")
+
+def make_shirt(size='large', text='I love Python.'):
+    print("\nThe machine will be printing a " + size + " shirt.")
+    print('It will say something like: "' + text + '"')
+
+make_shirt()
+make_shirt(size='medium')
+make_shirt('large', 'Technical artists rock!')

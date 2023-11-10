@@ -6,3 +6,11 @@
 
 
 ##### Attempt
+
+print("Functions part 2:\n")
+
+def favorite_book(title):
+    print(f" {title} is an amazing Xianxia novel that I finished reading a few days ago.")
+
+favorite_book('Lightning Is The Only Way')
+

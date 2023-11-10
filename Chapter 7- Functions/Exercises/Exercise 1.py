@@ -5,3 +5,13 @@
 
 
 ##### Attempt
+
+print('Functions, def keyword:\n')
+
+def display_message():
+    message="I am learning how to use functions in Python in this chapter."
+    print(message)
+
+display_message()
+
+
