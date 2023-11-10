@@ -8,3 +8,41 @@
 
 
 ##### Attempt
+
+print("[Glossary]\n")
+
+glossary={
+'string':"a sequence of characters which can contain letters, numbers, symbols, and spaces.",
+'else': "a conditional statement that executes if the 'if' statement resolves to a false value.",
+'if': "a conditional statement that executes a condition if it is true.",
+'print': "a function that prints a message to the a screen",
+'dictionary': "a collection of a key-value pairs.",
+}
+
+word = 'string'
+print(f"{word.title()}: \n>  {glossary[word]}")
+word = 'else'
+print(f"{word.title()}: \n>  {glossary[word]}")
+word = 'if'
+print(f"{word.title()}: \n>  {glossary[word]}")
+word = 'print'
+print(f"{word.title()}: \n>  {glossary[word]}")
+word = 'dictionary'
+print(f"{word.title()}: \n>  {glossary[word]}")
+
+
+###### Shortening code attempt
+
+print("\n\n[Personal Activity]: Shortening code\n")
+print("[Glossary]\n")
+
+glossary={
+'string':"a sequence of characters which can contain letters, numbers, symbols, and spaces.",
+'else': "a conditional statement that executes if the 'if' statement resolves to a false value.",
+'if': "a conditional statement that executes a condition if it is true.",
+'print': "a function that prints a message to the a screen",
+'dictionary': "a collection of a key-value pairs.",
+}
+
+for word, description in glossary.items():
+    print(f'{word}: \n>  {description}')

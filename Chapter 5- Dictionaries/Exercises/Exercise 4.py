@@ -7,3 +7,23 @@
 
 
 ##### Attempt
+
+print("Rivers, Sentences:\n")
+
+major_rivers={
+'Yangtze':'China',
+'Vistula':'Poland',
+'Nakdong':'South Korea',
+}
+
+for rivers, countries in major_rivers.items():
+    print(f"The {rivers} river runs through {countries}.")
+
+## keys:values
+print("\nNames of each river in the dictionary:")
+for rivers in major_rivers.keys():
+    print(f'> {rivers}')
+
+print("\nNames of each country in the dictionary:")
+for countries in major_rivers.values():
+    print(f'> {countries}')

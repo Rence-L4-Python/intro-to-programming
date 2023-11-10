@@ -8,7 +8,7 @@
 ##### Attempt
 
 print('[Activity]')
-sandwich_orders=['Ham and cheese', 'Chicken mayo', 'Salmon and cream cheese', 'Cheese and tomato', 'Bacon-lettuce-tomato']
+sandwich_orders=['Ham and cheese', 'Chicken mayo', 'Salmon and cream cheese', 'Cheese and tomato', 'BLT']
 finished_sandwiches=[]
 
 print('\n')
@@ -23,7 +23,7 @@ for order in finished_sandwiches:
 print('\n')
 
 
-###### input sandwich import time.sleep function
+###### sandwich ordering tool that shows available sandwiches, finished sandwiches, fake orders, repeated orders, when out of stock, and uses the time module
 
 print('[Personal Activity]: Timed sandwich ordering tool\n')
 
@@ -42,7 +42,7 @@ while True:
         finished_sandwiches.append(order)
         sandwich_orders.remove(order)
         sub=order
-        time.sleep(2.5)
+        time.sleep(2)
         print(f'>> Order up! The {sub} sandwich is ready to be delivered.\n')
         print('===============','\nList of finished sandwiches:', finished_sandwiches)
     elif order in finished_sandwiches:
